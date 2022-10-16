@@ -264,31 +264,34 @@ img {
   margin-right: 0.6rem;
 }
 
+/* Text Styles */
+.x-large {
+  font-size: 3rem;
+}
 
-  /* Text Styles */
-  .x-large {
-    font-size: 3rem;
-  }
+.large {
+  font-size: 2rem;
+}
 
-  .large {
-    font-size: 2rem;
-  }
+.lead {
+  font-size: 1rem;
+}
 
-  .lead {
-    font-size: 1rem;
-  }
+.landing {
+  position: relative;
+  background: url("../img/showcase.jpg");
+  height: 100vh;
+}
 
+.navbar ul {
+  text-align: center;
+  justify-content: center;
+}
 
+.navbar h1 {
+  margin-bottom: 1rem;
+}
 
-  .navbar ul {
-    text-align: center;
-    justify-content: center;
-  }
-
-  .navbar h1 {
-    margin-bottom: 1rem;
-  }
-
-  .navbar .welcome {
-    display: none;
-  }
+.navbar .welcome {
+  display: none;
+}
